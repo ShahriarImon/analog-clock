@@ -71,10 +71,8 @@
   top: 188px;
 }
 
-:root {
-  --handRotation: 0;
-}
 .hand {
+  --handRotation: 0;
   transform-origin: bottom;
   transform: rotate(calc(var(--handRotation) * 1deg));
 }
